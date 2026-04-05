@@ -60,6 +60,16 @@
   .portfolio {
     .port-grup {
       display: contents;
+      iframe {
+        margin-bottom: 50px;
+        margin: 0 auto;
+        height: 40vh;
+        margin-left: 10px;
+        margin-right: 10px;
+        border: none;
+        box-shadow: none;
+        background: transparent;
+      }
 
       .port {
         margin-bottom: 50px;
