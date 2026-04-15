@@ -248,7 +248,7 @@ a {
     max-width: 24%;
     height: auto;
     object-fit: cover;
-    border-radius: 5px;
+    border-radius: 20px;
     margin-left: 50px;
     position: relative;
     top: -50px;
@@ -326,24 +326,27 @@ a {
     gap: 50px;
   }
   a {
-    font-size: 2.5vh;
+    font-size: 1.5rem;
     font-weight: 500;
     img {
-      max-width: 17vh;
+      width: clamp(70px, 15vh, 130px);
+      height: clamp(70px, 15vh, 130px);
+      border-radius: 50%;
+      object-fit: cover;
     }
   }
   padding-bottom: 50px;
   h2 {
     color: #61892f;
     text-align: center;
-    font-size: 3vh;
+    font-size: 2rem;
   }
 }
 .socila-new {
   display: flex;
   justify-content: center;
   gap: 20px;
-  padding-top: 50px;
+  padding-top: 2vh;
 
   a {
     img {
@@ -360,3 +363,5 @@ a {
     margin-right: 10px;
   }
 }
+
+

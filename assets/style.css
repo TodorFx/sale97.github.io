@@ -462,7 +462,7 @@ a {
   height: auto;
   -o-object-fit: cover;
      object-fit: cover;
-  border-radius: 5px;
+  border-radius: 20px;
   margin-left: 50px;
   position: relative;
   top: -50px;
@@ -540,11 +540,15 @@ a {
   gap: 50px;
 }
 .client-section a {
-  font-size: 2.5vh;
+  font-size: 1.5rem;
   font-weight: 500;
 }
 .client-section a img {
-  max-width: 17vh;
+  width: clamp(70px, 15vh, 130px);
+  height: clamp(70px, 15vh, 130px);
+  border-radius: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 .client-section {
   padding-bottom: 50px;
@@ -552,14 +556,14 @@ a {
 .client-section h2 {
   color: #61892f;
   text-align: center;
-  font-size: 3vh;
+  font-size: 2rem;
 }
 
 .socila-new {
   display: flex;
   justify-content: center;
   gap: 20px;
-  padding-top: 50px;
+  padding-top: 2vh;
 }
 .socila-new a img {
   max-width: 5.5vh;
@@ -604,6 +608,12 @@ footer .footer-social a img {
 }
 
 @media (max-width: 1550px) {
+  .port-grup iframe {
+    max-width: 30% !important;
+  }
+  main h1 {
+    font-size: 3rem;
+  }
   .work {
     max-width: 70%;
   }
@@ -731,7 +741,7 @@ footer .footer-social a img {
     font-size: 1.8vh;
   }
   main h1 {
-    font-size: 4vh;
+    font-size: 2.3rem;
     white-space: wrap;
   }
   header {
